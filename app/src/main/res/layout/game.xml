@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/kaka"
+    >
+
+    <Button
+        android:id="@+id/xia"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_x="76dp"
+        android:layout_y="256dp"
+        android:text="下" />
+
+    <Button
+        android:id="@+id/zuo"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="206dp"
+        android:text="左" />
+
+    <Button
+        android:id="@+id/you"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_x="143dp"
+        android:layout_y="201dp"
+        android:text="右" />
+
+    <Button
+        android:id="@+id/shang"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_x="76dp"
+        android:layout_y="146dp"
+        android:text="上" />
+</AbsoluteLayout>
